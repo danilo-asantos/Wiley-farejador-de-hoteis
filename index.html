@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Landing Page</title>
 </head>
+
 <body>
     <header>
         <a href="#" class="logo">
-            <img src="src/img/Wiley.gif" alt="Cão Wiley, Husky Siberiano.">
+            <img src="src/img/Wiley.gif" alt="Cão Wiley, Husky Siberiano." class="imagem">
             <span class="titulo">Wiley</span>
         </a>
 
-        <nav class="menu">
+        <nav class="navegacao">
             <ul class="menu">
                 <li class="item">
                     <a href="#hoteis">Hotéis</a>
@@ -21,6 +23,9 @@
 
                 <li class="item">
                     <a href="#comodidades">Comodidades</a>
+                </li>
+                <li class="item">
+                    <a href="#contato">Contato</a>
                 </li>
                 <li class="item">
                     <a href="#registre-se">Registre-se</a>
@@ -35,7 +40,7 @@
     <main class="conteudo-principal" id="hoteis">
         <section class="paineis">
             <h1 class="titulo">Hotéis</h1>
-            
+
             <div class="imagem-painel hotel1 mostrar"></div>
             <div class="imagem-painel hotel2"></div>
             <div class="imagem-painel hotel3"></div>
@@ -43,7 +48,52 @@
             <a href="#" id="btn-voltar" class="seta btn-voltar">voltar</a>
             <a href="#" id="btn-avancar" class="seta btn-avancar">avançar</a>
         </section>
+
+
+        <section class="comodidades" id="comodidades">
+            <div class="titulo-comodidade">
+                <h2>Especifique as comidades de sua preferência</h2>
+                <p>Escolha entre os melhores recursos para aproveitar uma estadia personalizada.</p>
+            </div>
+
+            <div class="comodidades-grupo">
+                <a href="#" class="comodidade">Estacionamento gratuito</a>
+                <a href="#" class="comodidade">Ar-condicionado</a>
+                <a href="#" class="comodidade-">Piscina</a>
+                <a href="#" class="comodidade">TV</a>
+                <a href="#" class="comodidade">Aquecedor</a>
+                <a href="#" class="comodidade">Churrasqueira</a>
+                <a href="#" class="comodidade">Máquina de lavar</a>
+                <a href="#" class="comodidade">Lareira</a>
+            </div>
+        </section>
+
     </main>
-    
+
+    <footer class="rodape" id="contato">
+        <nav class="navegacao">
+            <a href="#" class="logo">
+                <img src="src/img/Wiley.gif" alt="Cão Wiley, husky siberiano" class="imagem">
+                <span class="titulo">Wiley</span>
+            </a>
+
+            <div class="redes-socias">
+                <a href="#" class="rede-social">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="#" class="rede-social">
+                    <i class="fab fa-instagram-square"></i>
+                </a>
+
+                <a href="#" class="rede-social">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+        </nav>
+
+        <p class="copyright">Todos os direitos reservados.</p>
+    </footer>
 </body>
+
 </html>
