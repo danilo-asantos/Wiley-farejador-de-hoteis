@@ -119,6 +119,12 @@ html{
     position: relative;
 }
 
+.conteudo-principal .paineis .titulo{
+    color: white;
+    text-transform: uppercase;
+    font-size: calc(1em + 1vw);
+}
+
 .conteudo-principal .paineis .imagem-painel{
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,8 +133,38 @@ html{
     height: 100%;
     position: absolute;
     z-index: -1;
+    filter: brightness(75%);
 }
 
 .conteudo-principal .paineis .hotel1{
+    background-image: url(../img/hotel-roberto-nickson.jpg);
+}
+
+.conteudo-principal .paineis .hotel2{
     background-image: url(../img/hotel-sasha-kaunas.jpg);
+}
+
+.conteudo-principal .paineis .hotel3{
+    background-image: url(../img/hotel-iwood.jpg);
+}
+
+.conteudo-principal .paineis .seta{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/seta.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    text-indent: 100%;
+    overflow: hidden;
+}
+
+.conteudo-principal .paineis .btn-voltar{
+    left: 20px;
+    rotate: 180deg;
+}
+
+.conteudo-principal .paineis .btn-avancar{
+    right: 20px;
 }
