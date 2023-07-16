@@ -38,9 +38,10 @@ html{
     align-items: center;
     background-color: #4f8edb;
     padding: 25px 0;
-    max-width: 1170px;
+    width: 100%;
     margin: 0 auto;
     flex-wrap: wrap;
+    padding: 0px 50px;
 }
 
 .cabecalho .logo{
@@ -111,6 +112,7 @@ html{
     color: white;
 }
 
+
 .conteudo-principal .paineis{
     display: flex;
     align-items: center;
@@ -168,3 +170,45 @@ html{
 .conteudo-principal .paineis .btn-avancar{
     right: 20px;
 }
+
+.conteudo-principal .secao-comodidades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #f7f7f7 ;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.conteudo-principal .secao-comodidades .grupo-comodidades{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.conteudo-principal .secao-comodidades .grupo-comodidades .comodidade{
+    margin: 20px;
+    padding: 15px 25px;
+    border-radius: 10%;
+    border: 0.5px solid black;
+}
+
+.conteudo-principal .secao-comodidades .grupo-comodidades .comodidade:hover{
+    background-color: #30508e;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.conteudo-principal .secao-comodidades .texto-comodidades{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 15%;
+}
+
+.conteudo-principal .secao-comodidades .texto-comodidades .titulo{
+    margin: 15px;
+}
+
