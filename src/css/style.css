@@ -145,7 +145,7 @@ html{
     height: 100%;
     position: absolute;
     z-index: -1;
-    filter: brightness(75%);
+    filter: brightness(65%);
 }
 
 .conteudo-principal .paineis .hotel1{
@@ -221,6 +221,49 @@ html{
     color: #fff;
     transition: 0.3s ease;
 }
+
+.rodape{
+    padding: 80px;
+    height: 100px;
+    background-color: #4f8edb;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.rodape .navegacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape .navegacao .logo .imagem{
+    width: 200px;
+}
+
+.rodape .navegacao .logo{
+    display: flex;
+    align-items: center;
+}
+
+.rodape .navegacao .logo .titulo{
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+}
+
+.rodape .navegacao .redes-sociais{
+    display: block;
+}
+.rodape .navegacao .redes-sociais a{
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+    font-size: 30px;
+    border: 1px solid #111;
+}
+
 
 @media (max-width: 920px){
     .cabecalho{
