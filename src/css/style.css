@@ -146,8 +146,12 @@ html{
     position: absolute;
     z-index: -1;
     filter: brightness(65%);
+    opacity: 0;
 }
 
+.conteudo-principal .paineis .imagem-painel.mostrar{
+    opacity: 1;
+}
 .conteudo-principal .paineis .hotel1{
     background-image: url(../img/hotel-roberto-nickson.jpg);
 }
@@ -174,7 +178,7 @@ html{
 
 .conteudo-principal .paineis .btn-voltar{
     left: 20px;
-    rotate: 180deg;
+    transform: rotate(180deg);
 }
 
 .conteudo-principal .paineis .btn-avancar{
