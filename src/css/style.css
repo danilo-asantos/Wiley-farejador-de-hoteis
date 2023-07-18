@@ -69,6 +69,7 @@ html{
 .cabecalho  .logo .texto{
     font-size: 0.7rem;
     color: #30508e;
+    text-transform: lowercase;
 }
 
 .cabecalho .titulo:hover{
