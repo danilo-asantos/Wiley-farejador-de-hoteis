@@ -1,9 +1,3 @@
-const produto = {
-    nome: 'Tênis Nike',
-    valor: 600,
-    modelo: 'Jordan 2'
-}
-
 // FUNÇÃO CARROSEL DE IMAGENS
 // Declarar variáveis para armanezar; lista de imagens, setaVoltar, setaAvançar e imagem atual.
 // Remover a classe "mostrar" de todos os elementos que podem contê-lo.
