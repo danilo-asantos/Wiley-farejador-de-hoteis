@@ -39,4 +39,16 @@ setaAvançar.addEventListener('click', function () {
     if (imagemAtual !== imagens.length -1) {
         imagemAtual++
     }
+
+    esconderImagens()
+    mostrarImagem()
+})
+
+setaVoltar.addEventListener('click', function(){
+    if (imagemAtual !== 0){
+        imagemAtual--
+    }
+
+    esconderImagens()
+    mostrarImagem()
 })

@@ -147,6 +147,7 @@ html{
     z-index: -1;
     filter: brightness(65%);
     opacity: 0;
+    transition: 0.2s ease-in-out;
 }
 
 .conteudo-principal .paineis .imagem-painel.mostrar{
@@ -174,6 +175,7 @@ html{
     position: absolute;
     text-indent: 100%;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .conteudo-principal .paineis .btn-voltar{
