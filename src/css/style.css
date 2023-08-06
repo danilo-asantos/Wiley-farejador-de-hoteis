@@ -66,7 +66,7 @@ html{
     transition: 0.2s ease-out;
 }
 
-.cabecalho  .logo .texto{
+.cabecalho .logo .texto{
     font-size: 0.7rem;
     color: #30508e;
     text-transform: lowercase;
@@ -219,13 +219,15 @@ html{
     align-items: center;
     margin: 0 auto;
     font-size: 1.1rem;
+    padding-bottom: 35px;
 }
 
 .conteudo-principal .secao-comodidades .grupo-comodidades .comodidade{
-    margin: 20px;
-    padding: 10px 20px;
-    border-radius: 10%;
-    border: 0.5px solid black;
+    margin: 15px;
+    padding: 8px 20px;
+    border-radius: 7%;
+    border: 2px solid #ccc;
+    text-transform: uppercase;
 }
 
 .conteudo-principal .secao-comodidades .grupo-comodidades .comodidade:hover{
@@ -296,7 +298,7 @@ html{
         margin: 0 auto;
     }
 
-    .cabecalho .navegacao .menu .item{
+     .cabecalho .navegacao .menu .item{
         margin-bottom: 20px;
     }
 
